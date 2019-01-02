@@ -1,0 +1,20 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class News extends Model
+{
+    /**
+     * @var string
+     */
+    protected $table = 'news';
+
+    /**
+     * @var array
+     */
+    protected $fillable = [
+        'title', 'description'
+    ];
+}
